@@ -1,0 +1,11 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: image/helloworld
+      bazel:
+        target: //packages/helloworld:image.tar
+deploy:
+  kubectl:
+    manifests:
+      - k8s-*

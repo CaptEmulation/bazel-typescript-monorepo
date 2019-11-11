@@ -1,0 +1,19 @@
+{
+  "version": "$PACKAGE_VERSION",
+  "homepage": "https://github.com/app/app",
+  "license": "MIT",
+  "keywords": [
+    "dataform",
+    "etl",
+    "data-pipeline",
+    "big-data",
+    "data-modelling",
+    "sql",
+    "bigquery",
+    "redshift",
+    "dataops"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

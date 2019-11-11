@@ -1,0 +1,9 @@
+{
+  "name": "@app/helloworld",
+  "description": "Hello Monorepo",
+  "main": "src/index.js",
+  "private": true,
+  "dependencies": {
+    "@app/common": "$PACKAGE_VERSION"
+  }
+}

@@ -1,0 +1,2 @@
+build --symlink_prefix=lib/
+common --experimental_allow_incremental_repository_updates

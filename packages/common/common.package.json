@@ -1,0 +1,10 @@
+{
+  "name": "@app/common",
+  "description": "app common",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "private": true,
+  "dependencies": {
+    "sillyname": "^0.1.0"
+  }
+}
